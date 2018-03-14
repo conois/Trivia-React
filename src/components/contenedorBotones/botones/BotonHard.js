@@ -1,7 +1,10 @@
 import React from 'react';
+import PropTypes from 'prop-types';
 
 const BotonHard = () => (
   <div>
-    <button></button>
+    <button>Hard</button>
   </div>
 );
+
+export default BotonHard;
