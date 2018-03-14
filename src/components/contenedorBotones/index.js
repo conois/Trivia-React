@@ -1,9 +1,9 @@
 import React,{ Component } from 'react';
 import PropTypes from 'prop-types';
-import BotonEasy from './botones';
-import BotonMedium from './botones';
-import BotonHard from '.botones';
-import styles from './styles.css';
+import BotonEasy from './botones/BotonEasy';
+import BotonMedium from './botones/BotonMedium';
+import BotonHard from './botones/BotonHard';
+import './style.css';
 
 class Botones extends Component {
   render(){
