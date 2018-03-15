@@ -4,7 +4,8 @@ import './App.css';
 
 //Components
 import Titulo from './components/contenedorTitulo/';
-import Botones from './components/contenedorBotones/index.js'; 
+import Botones from './components/contenedorBotones/index.js';
+import BoxQuestions from './components/contenedorPreguntas/Preguntas';
 
 class App extends Component {
   render() {
@@ -12,6 +13,7 @@ class App extends Component {
       <div className="App">
         <Titulo />
         <Botones />
+        <BoxQuestions />
       </div>
     );
   }
