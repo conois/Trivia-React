@@ -5,7 +5,7 @@ class BotonEasy extends React.Component{
   render() {
     return(
       <div>
-        <button>Easy</button>
+        <button onClick={() => {this.props.handleClick()}}>Easy</button>
       </div>
     )
   }

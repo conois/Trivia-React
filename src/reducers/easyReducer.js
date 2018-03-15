@@ -1,6 +1,8 @@
 import LOAD_EASY from './../action/easy';
 
-let initialState = [];
+let initialState = {
+	list : []
+};
 
 export function getQuestion(state=initialState, action){
   switch (action.type) {
