@@ -1,4 +1,6 @@
-import getQuestion from './easyReducer';
-import { combineReducer } from 'redux';
+import {getQuestion} from './easyReducer';
+import { combineReducers } from 'redux';
 
-const rootReducer = combineReducer({easyQuestions: getQuestion})
+const rootReducer = combineReducers({easyQuestions: getQuestion})
+
+export default rootReducer;

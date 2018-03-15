@@ -17,4 +17,4 @@ class Botones extends Component {
   }
 }
 
-export default connect()(Botones);
+export default Botones;
